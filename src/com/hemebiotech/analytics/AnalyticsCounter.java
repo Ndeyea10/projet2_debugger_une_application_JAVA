@@ -1,6 +1,9 @@
 package com.hemebiotech.analytics;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.List;
+import java.util.Map;
 import java.util.TreeMap;
 
 public class AnalyticsCounter {
@@ -27,5 +30,20 @@ public class AnalyticsCounter {
 
 		return listSymptoms;
 
+	}
+
+	/**
+	 *allows to describe in a new text file a TreeMap containing the different symptoms and their occurrence.
+	 * @param symptoms a TreeMap containing the different symptoms and their occurrence
+	 *        			in order to write them in a text file.
+	 */
+	public void writeResultInFile(TreeMap<String, Integer> symptoms ) throws IOException {
+
+		FileWriter writer = new FileWriter ("result.txt");
+		for(Map.Entry<String, Integer> entry: symptoms.entrySet()){
+			writer.write(entry.getKey() +": " +entry.getValue());
+			writer.write('\n');
+		}
+		writer.close();
 	}
 }
