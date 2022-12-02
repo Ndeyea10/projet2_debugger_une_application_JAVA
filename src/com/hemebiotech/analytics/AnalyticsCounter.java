@@ -46,4 +46,15 @@ public class AnalyticsCounter {
 		}
 		writer.close();
 	}
+
+	/**
+	 * allows to read the text file containing symptoms.
+	 * @return listSymptoms
+	 */
+	public List<String> readFile(){
+		ISymptomReader read = new ReadSymptomDataFromFile("symptoms.txt");
+		List<String> listSymptoms = read.getSymptoms();
+		System.out.println(listSymptoms+ "\n");
+		return listSymptoms;
+	}
 }
