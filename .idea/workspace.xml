@@ -19,13 +19,27 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:debug" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3398ac8e-87e6-4e70-9022-da56bc2ab800" name="Default Changelist" comment="" />
+    <list default="true" id="0b1d85e2-a424-4f46-8363-afe17dcdafe1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/projet2_debugger_une_application_JAVA/com/hemebiotech/analytics/AnalyticsCounter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/projet2_debugger_une_application_JAVA/com/hemebiotech/analytics/ISymptomReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/projet2_debugger_une_application_JAVA/com/hemebiotech/analytics/ReadSymptomDataFromFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projet2_debugger_une_application_JAVA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projet2_debugger_une_application_JAVA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ISymptomReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ISymptomReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ReadSymptomDataFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ReadSymptomDataFromFile.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -216,9 +230,13 @@
       <screen x="0" y="0" width="1216" height="771" />
     </state>
     <state x="146" y="84" key="VCS.ChangeListViewerDialog/0.0.1216.771@0.0.1216.771" timestamp="1670018700883" />
-    <state x="202" y="119" key="Vcs.Push.Dialog.v2" timestamp="1670018766190">
+    <state x="202" y="119" key="Vcs.Push.Dialog.v2" timestamp="1670021581876">
       <screen x="0" y="0" width="1216" height="771" />
     </state>
-    <state x="202" y="119" key="Vcs.Push.Dialog.v2/0.0.1216.771@0.0.1216.771" timestamp="1670018766190" />
+    <state x="202" y="119" key="Vcs.Push.Dialog.v2/0.0.1216.771@0.0.1216.771" timestamp="1670021581876" />
+    <state x="266" y="174" key="run.anything.popup" timestamp="1670021574743">
+      <screen x="0" y="0" width="1216" height="771" />
+    </state>
+    <state x="266" y="174" key="run.anything.popup/0.0.1216.771@0.0.1216.771" timestamp="1670021574743" />
   </component>
 </project>
